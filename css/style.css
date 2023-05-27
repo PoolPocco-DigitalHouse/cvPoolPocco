@@ -1,0 +1,118 @@
+header {
+    position: relative;
+    text-align: center;
+    padding-bottom: 3%;
+   
+}
+
+.banner {
+    background-color:  #E6E6E6;
+    background-image: url('../img/banner.png');   
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+   
+}
+
+.foto {
+    border-radius: 50%;
+    margin-right: 5px;
+    padding: 5%;
+    width: 250px; 
+    height: 270px;
+       
+}
+
+h1 {
+    background-color: #3d86e6;
+    color: #E6E6E6;
+    text-transform: uppercase; 
+    font-family: 'Inter',"Times New Roman";
+    text-align: center;
+    letter-spacing: 20px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+/* main */
+
+h2 {
+    background-color: #3d86e6;;
+    color: #E6E6E6;
+    text-transform: uppercase; 
+    font-family: 'Inter',"Times New Roman";
+    text-align: center;
+}
+
+section li span {
+    font-weight: bold;
+    font-family: 'Inter',"Times New Roman";
+}
+
+.contenido > li {
+    list-style-type: none;
+    font-family: 'Inter',"Times New Roman";
+    font-size: 20px
+}
+
+/* footer */
+footer {
+    background-color: #3d86e6;;
+    color: white; 
+    font-family: 'Inter',"Times New Roman";
+    text-align: center;
+    padding: 20px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer > span {
+    margin-right: 10px;
+    
+}
+
+footer > img {
+    max-height: 20px;
+    margin-left: 10px;
+    font-size: 30px;
+    color: white;
+}
+
+.sobremi{
+    background-color: #3d86e6;;
+    border-radius: 24px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-family: 'Inter',"Times New Roman";
+    font-size: 20px;
+    padding: 15px;
+    text-align: center;
+}
+
+.redes {
+    font-size: 30px;
+    color: white;
+    padding-right: 15px;
+}
+
+.regresar{
+    background-color: white;
+    border-radius: 24px;
+    border: none;
+    color: #333f44;
+    cursor: pointer;
+    font-family: 'Inter',"Times New Roman";
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+}
